@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дмитрий Хайтин](https://up.htmlacademy.ru/adaptive/7/user/151246).
-* Наставник: `Неизвестно`.
+* Наставник: `Отсутствует`.
 
 ---
 
