@@ -6,6 +6,5 @@ Thumbs.db
 *.log
 *.psd
 *.ai
-css/*.css
 build
-build/
+css/*.css
