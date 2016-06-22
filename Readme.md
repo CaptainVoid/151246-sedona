@@ -1,7 +1,12 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
+<<<<<<< HEAD
 * Студент: [Дмитрий Хайтин](https://up.htmlacademy.ru/adaptive/6/user/151246).
 * Наставник: [Николай Громов](https://vk.com/n.gromov).
+=======
+* Студент: [Дмитрий Хайтин](https://up.htmlacademy.ru/adaptive/7/user/151246).
+* Наставник: `Отсутствует`.
+>>>>>>> dca76ab298dbb79af8ddbe0922e2e31d4f84f490
 
 ---
 
