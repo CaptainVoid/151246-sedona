@@ -21,6 +21,14 @@
     font-size: @most-large;
     font-weight: bold;
     color:@black;
+
+    &:hover{
+        color: @blue-hover;
+      }
+
+    &:active{
+      color: @gray-down;
+    }
   }
 
   &__logo{
@@ -31,6 +39,14 @@
     margin-left: 22px;
     vertical-align: middle;
     background-repeat: no-repeat;
+
+    &:hover{
+      background-image: url("../img/logo-htmlacademy-hover.svg");
+    }
+
+    &:active{
+      background-image: url("../img/logo-htmlacademy-down.svg");
+    }
   }
 
   &__developed-wrapper{
@@ -263,23 +279,43 @@
     margin-right: 6px;
     margin-bottom: 3px;
 
+    &:hover{
+      background-color: @blue-hover;
+    }
+
+    &:active{
+      background-color: @blue-down;
+    }
+
     &:last-child{
       margin-right: 0;
     }
 
     &--tw{
-    background-image: url("../img/icon-twitter.svg");
-    background-repeat: no-repeat;
+      background-image: url("../img/icon-twitter.svg");
+      background-repeat: no-repeat;
+
+      &:active{
+        background-image: url("../img/icon-twitter-down.svg");
+      }
     }
 
     &--fb{
       background-image: url("../img/icon-facebook.svg");
       background-repeat: no-repeat;
+
+      &:active{
+        background-image: url("../img/icon-facebook-down.svg");
+      }
     }
 
     &--youtube{
       background-image: url("../img/icon-youtube.svg");
       background-repeat: no-repeat;
+
+      &:active{
+        background-image: url("../img/icon-youtube-down.svg");
+      }
     }
   }
 

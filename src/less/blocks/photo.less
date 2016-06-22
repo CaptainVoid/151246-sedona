@@ -1,4 +1,4 @@
-//  background-image: url("../photo-mobile.png"); background-repeat: no-repeat; opacity: 0.5;
+//  background-image: url("../../photo-mobile.png"); background-repeat: no-repeat; opacity: 0.5;
 .photo-main{
   background-color: @white;
   @media @tablet-widths{
@@ -74,6 +74,7 @@
       flex-direction: row;
       justify-content: space-between;
       padding: 0 20px;
+      padding-right: 28px;
       margin-bottom: 0;
       box-sizing: border-box;
     }
@@ -81,6 +82,10 @@
     &--big{
       width: 100%;
       min-height: 480px;
+
+      .photo-section__big-wrapper{
+        padding-right: 20px;
+      }
 
       .like-wrapper{
         justify-content: flex-end;
@@ -105,7 +110,7 @@
 
     &--big{
       width:1200px;
-      min-height: 400px;
+      min-height: 400px;     
     }
 
     &--small{
@@ -385,6 +390,7 @@
 
   @media @tablet-widths{
     background-position: 50% 0%;
+    margin-right: 9px;
   }
 
   @media @desktop-widths{
@@ -403,7 +409,12 @@
     width: 30%;
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    padding-bottom: 4px;
+
+    &__like-counter--different{
+      padding-right: 8px;
+    }
   }
 }
