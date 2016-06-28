@@ -9,6 +9,11 @@
   box-sizing: border-box;
   position: relative;
 
+  ::-webkit-input-placeholder {color: @black; opacity: 1; font-weight: bold;}
+  ::-moz-placeholder          {color: @black; opacity: 1; font-weight: bold;}/* Firefox 19+ */
+  :-moz-placeholder           {color: @black; opacity: 1; font-weight: bold;}/* Firefox 18- */
+  :-ms-input-placeholder      {color: @black; opacity: 1; font-weight: bold;}
+
   &:last-child{
     margin-bottom: 0;
   }
@@ -133,6 +138,7 @@
 
     &--tel{
       margin-bottom: 18px;
+      justify-content: space-between;
 
       .text-label__warning{
         order: 0;
