@@ -394,6 +394,7 @@
     &--small{
       width:400px;
       display:block;
+      padding: 0;
 
       .five-reasons__wrapper{
         display: flex;
@@ -403,13 +404,25 @@
       }
 
       .five-reasons__title{
-        padding: 37px 117px;
+        padding: 37px 122px;
         padding-bottom: 10px;
       }
 
       .five-reasons__text--number{
         margin-bottom: 23px;
       }
+    }
+
+    &--road .five-reasons__text{
+      padding: 0 62px;
+    }
+
+    &--tourists .five-reasons__text{
+      padding: 0 55px;
+    }
+
+    &--square .five-reasons__text{
+      padding: 0 70px;
     }
 
     &__image-wrapper{
@@ -437,6 +450,7 @@
       }
 
       .five-reasons__text{
+        padding: 0 83px;
         padding-bottom: 22px;
       }
     }
@@ -447,7 +461,13 @@
       max-height: 256px;
     }
 
-    &__blue-wrapper-shaped{}
+    &__blue-wrapper-shaped{
+
+      .five-reasons__text{
+        padding: 0 65px;
+        padding-bottom: 22px;
+      }
+    }
 
     &__title{
       font-size:21px;
@@ -469,6 +489,7 @@
       width:400px;
       text-align:center;
       min-height: 325px;
+      padding: 0;
 
       h3{
         padding-top: 158px;
@@ -486,6 +507,10 @@
         order:-3;
       }
 
+      &--cottage p{
+        padding: 11px 46px;
+      }
+
       &--cottage::after{
         left: 40%;
         top: 18%;
@@ -495,6 +520,10 @@
         order:-1;
       }
 
+      &--souvenir p{
+        padding: 11px 102px;
+      }
+
       &--souvenir::after{
         left: 42%;
         top: 18%;
@@ -502,6 +531,10 @@
 
       &--hamburger{
         order:-2;
+      }
+
+      &--hamburger p{
+        padding: 11px 57px;
       }
 
       &--hamburger::after{
@@ -537,6 +570,7 @@
     justify-content: center;
     align-items: center;
     min-height: 56px;
+    font-weight: bold;
   }
 
   @media @tablet-widths{

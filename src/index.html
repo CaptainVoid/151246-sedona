@@ -26,7 +26,13 @@
           </li>
         </ul>
       </nav>
-      <div class="main-header__logo"></div>
+      <div class="main-header__logo">
+        <picture>
+          <source media="(min-width:1200px)" srcset="img/logo-sedona-desktop.svg">
+          <source media="(min-width:768px)" srcset="img/logo-sedona-tablet.svg">
+          <img src="img/logo-sedona-mobile.svg" alt="Фото">
+        </picture>
+      </div>
       <div class="main-header__welcome-text"></div>
       <div class="main-header__text-wrapper">
         <h1 class="main-header__title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
@@ -41,7 +47,7 @@
           <p class="five-reasons__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
         </div>
         <div class="five-reasons__image-wrapper">
-          <img class="five-reasons__picture" src="img/photo-city.jpg" srcset="img/photo-city@2x.jpg" alt="Фотография">
+          <img class="five-reasons__picture" src="img/photo-city.jpg" srcset="img/photo-city.jpg 1x, img/photo-city@2x.jpg 2x" alt="Фотография">
         </div>
       </section>
       <section class="five-reasons">
@@ -67,25 +73,25 @@
           <p class="five-reasons__text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>
         <div class="five-reasons__image-wrapper  five-reasons__image-wrapper--gray">
-          <img class="five-reasons__picture" src="img/photo-bridge.jpg" srcset="img/photo-bridge@2x.jpg" alt="Фотография">
+          <img class="five-reasons__picture" src="img/photo-bridge.jpg" srcset="img/photo-bridge.jpg 1x, img/photo-bridge@2x.jpg 2x" alt="Фотография">
         </div>
       </section>
 <!--       <div class="five-reasons__section-wrapper">
- -->        <section class="five-reasons  five-reasons--small">
+ -->        <section class="five-reasons  five-reasons--small  five-reasons--square">
           <div class="five-reasons__wrapper">
             <h2 class="five-reasons__title">Небольшая площадь</h2>
             <span class="five-reasons__text--number">- №3 -</span>
             <p class="five-reasons__text">Все достопримечательности находятся очень близко</p>
           </div>
         </section>
-        <section class="five-reasons  five-reasons--small">
+        <section class="five-reasons  five-reasons--small  five-reasons--road">
           <div class="five-reasons__wrapper">
             <h2 class="five-reasons__title">Красивая дорога</h2>
             <span class="five-reasons__text--number">- №4 -</span>
             <p class="five-reasons__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </div>
         </section>
-        <section class="five-reasons  five-reasons--small">
+        <section class="five-reasons  five-reasons--small  five-reasons--tourists">
           <div class="five-reasons__wrapper">
             <h2 class="five-reasons__title">Мало туристов</h2>
             <span class="five-reasons__text--number">- №5 -</span>
