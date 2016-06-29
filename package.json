@@ -1,17 +1,5 @@
 {
-  "name": "151246-sedona",
-  "version": "0.1.0",
-  "private": true,
   "description": "Личный проект «Седона» от HTML Academy",
-  "author": "Дмитрий Хайтин",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:htmlacademy-adaptive/151246-sedona.git"
-  },
-  "bugs": {
-    "url": "https://github.com/htmlacademy-adaptive/151246-sedona/issues"
-  },
-  "homepage": "https://github.com/htmlacademy-adaptive/151246-sedona",
   "devDependencies": {
     "autoprefixer": "6.3.3",
     "browser-sync": "2.11.1",
@@ -30,12 +18,14 @@
     "gulp-uglify": "^1.5.3",
     "imagemin-pngquant": "^4.2.2"
   },
-  "scripts": {
-    "test": "editorconfig-tools check *",
-    "build": "./node_modules/.bin/gulp build",
-    "start": "./node_modules/.bin/gulp"
-  },
   "engines": {
     "node": "^5.0.0"
-  }
+  },
+  "private": true,
+  "scripts": {
+    "build": "./node_modules/.bin/gulp build",
+    "start": "./node_modules/.bin/gulp",
+    "test": "editorconfig-tools check *"
+  },
+  "version": "0.1.0"
 }
